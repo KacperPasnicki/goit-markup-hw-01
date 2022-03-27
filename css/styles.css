@@ -29,7 +29,7 @@ body {
 .navigation-adress {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,333;
+    line-height: 1.333;
     letter-spacing: 0.02em;
     }
 .navigation-list-link
@@ -103,7 +103,7 @@ body {
 .title{
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,545;
+    line-height: 1.545;
     width: 696px;
     height: 120px;
     margin-left: 452px;
@@ -196,8 +196,19 @@ border:none;
     cursor: pointer;
 }
 
+.first-figure{
+    font-weight: 700;
+    font-size: 18px;
+    line-height:2;
+    letter-spacing: 0.06em;
 
-
+}
+.second-figure{
+    font-size: 16px;
+    line-height:1,875;
+    color: #757575;
+    letter-spacing: 0.03em;
+}
 
 
 /* PORTFOLIO HTML */
