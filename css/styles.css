@@ -1,0 +1,203 @@
+:root{
+--main-font:'Roboto', sans-serif;
+--secondary-font:'Raleway', sans-serif;
+--main-color:#212121;
+--secondary-color:#2196F3;
+}
+body {
+    font-family: var(--main-font);
+    color: var(--main-color);
+    }
+/* COMPONENT */
+.logo{
+    font-family :var(--secondary-font);
+    font-weight:700;
+    line-height: 1.13;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--main-color);
+}
+.logo-blue{
+    color: var(--secondary-color);
+}
+
+/* END COMPONENT */
+
+/* HEADER */
+.header,
+.navigation-adress {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,333;
+    letter-spacing: 0.02em;
+    }
+.navigation-list-link
+{
+
+    color: var(--main-color);
+    text-decoration: none;
+
+
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.navigation-adress:hover,
+.navigation-adress:focus,
+.footer-adress:hover,
+.footer-adress:focus,
+.footer-link:hover,
+.footer-link:focus
+{
+    color: var(--secondary-color);
+}
+.navigation-adress
+{
+    
+    color: #757575;
+    text-decoration: none;
+
+}
+/* END HEADER */
+/* MAIN HEADER */
+.main-header{
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    
+    background-color:  #2F303A;
+
+}
+.button {
+    width: 200px;
+    height: 50px;
+    background-color: var(--secondary-color);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    
+    margin-left: 700px;
+    color:#ffffff;
+}
+
+.button:hover {
+    background-color: #1085e2;
+    cursor: pointer;
+    }
+/* END MAIN HEADER */
+
+.lorem-ipsum-header
+{
+    font-weight: 700;
+}
+
+.lorem-ipsum{
+    font-size: 14px;
+    line-height: 1.142;   
+    letter-spacing: 0.03em;
+    list-style: none;
+    }
+
+
+
+.title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,545;
+    width: 696px;
+    height: 120px;
+    margin-left: 452px;
+    letter-spacing: 0.06em;
+    color:#ffffff;
+    text-align: center;
+        }
+        
+        
+.adress:hover,
+.adress:focus {
+    color: var(--secondary-color);
+    }
+        
+        
+h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.666;
+    letter-spacing: 0.03em;
+        }
+.team-name{
+    font-weight: 500;
+    letter-spacing: 0.03em;
+        }
+.team-position {
+    letter-spacing: 0.03em;
+ }
+        
+    
+/* FOOTER */
+.footer{
+     width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+    background-color: #2F303A;;
+    
+ }
+.footer-logo{
+    font-family :var(--secondary-font);
+    font-weight:700;
+    line-height: 1.13;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--main-color);
+    color:#ffffff;
+}
+
+.footer-adress{
+color:#ffffff;
+line-height: 1.714;
+letter-spacing: 0.03em;
+}
+.footer-link
+{
+color: rgba(255, 255, 255, 0.6);
+line-height: 1.714;
+letter-spacing: 0.03em;
+text-decoration: none;
+}
+/* END FOOTER */
+
+/* PORTFOLIO HTML */
+.filtr-button {
+  
+width: 93px;
+height: 38px;
+left: 532px;
+top: 180px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.625;
+background-color: rgba(255, 255, 255, 1);
+color: var(--main-color);
+text-align: center;
+letter-spacing: 0.03em;
+border:none;
+
+}
+.filtr-button:hover,
+.filtr-button:focus
+{
+    color: var(--secondary-color);
+    color: #ffffff;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+}
+
+
+
+
+
+/* PORTFOLIO HTML */
